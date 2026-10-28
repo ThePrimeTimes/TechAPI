@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Compare smartphone specifications side by side on The Prime Times.">
+<title>Mobile Comparison | The Prime Times</title><link rel="stylesheet" href="./styles.css">
+</head>
+<body><main class="wrap">
+<header class="hero"><div class="eyebrow">THE PRIME TIMES · DEVICE LAB</div><h1>Compare mobiles<span>.</span></h1>
+<p>Search our open smartphone database and compare two devices side by side.</p></header>
+<section class="pickers">
+<div class="picker"><label for="searchA">First phone</label><input id="searchA" placeholder="Search brand or model…" autocomplete="off"><div id="suggestA" class="suggestions"></div><div id="cardA" class="phone empty">Choose a phone</div></div>
+<div class="versus">VS</div>
+<div class="picker"><label for="searchB">Second phone</label><input id="searchB" placeholder="Search brand or model…" autocomplete="off"><div id="suggestB" class="suggestions"></div><div id="cardB" class="phone empty">Choose another phone</div></div>
+</section>
+<p id="status" class="status" aria-live="polite">Loading database…</p>
+<section id="comparison" hidden><div class="section-title"><h2>Specifications</h2><button id="reset" type="button">Reset</button></div><div id="table"></div></section>
+<footer><p>Dataset: <a href="https://github.com/GetTechAPI/TechAPI" target="_blank" rel="noopener">GetTechAPI/TechAPI</a> · CC BY-SA 4.0. Please follow the dataset license and attribution requirements.</p>
+<p>Some records may be incomplete. Images are best-effort and may not be available for every phone.</p></footer>
+</main><script src="./app.js" defer></script></body></html>
